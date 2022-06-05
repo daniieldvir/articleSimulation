@@ -1,0 +1,80 @@
+.report-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.report-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #d7dade;
+  min-width: 300px;
+  min-height: 450px;
+}
+
+.report-form label:first-child {
+  margin-top: 20px;
+}
+
+.report-form input:last-child {
+  margin-bottom: 10px;
+}
+
+.single-pic {
+  margin-bottom: 10px;
+}
+
+.button-red {
+  background-color: red;
+  border: none;
+  margin-right: 10px;
+  width: 70px;
+  height: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+.button-blue {
+  background-color: #5fcafc;
+  border: none;
+  margin-top: 10px;
+  width: 270px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.report-form label {
+  align-self: normal;
+  margin-right: 12px;
+  margin-top: 5px;
+
+  font-size: 13px;
+}
+
+.report-form select {
+  align-self: normal;
+  margin-right: 12px;
+  margin-top: 5px;
+
+  width: 275px;
+  height: 25px;
+}
+
+.flex-column input {
+  width: 180px;
+}
+
+@media (max-width: 860px) {
+  .report-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .report-form {
+    margin-top: 20px;
+  }
+}
